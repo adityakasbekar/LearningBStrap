@@ -137,6 +137,7 @@
     <Content Include="bootstrap-social-gh-pages\bootstrap-social.css" />
     <Content Include="bootstrap-social-gh-pages\index.html" />
     <Content Include="index.html" />
+    <Content Include="mytrips.html" />
     <Content Include="obj\Debug\Learning BStrap.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\Learning BStrap.dll" />
     <Content Include="obj\Debug\Learning BStrap.pdb" />
