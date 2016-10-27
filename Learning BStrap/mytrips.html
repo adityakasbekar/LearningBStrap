@@ -52,34 +52,57 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
     <div class="row container col-sm-12 text-center">
-        <table class="table table-responsive">
-            <caption>MY TRIPS</caption>
+        <table class="table table-hover">
+            <caption style="padding-bottom:15px" class="text-center"><h3>MY TRIPS</h3></caption>            
             <tr>
-                <th>TRIP #</th>
-                <th>PLACE</th>
-                <th>YEAR</th>
+                <th class="text-center">TRIP #</th>
+                <th class="text-center">PLACE</th>
+                <th class="text-center">YEAR</th>
             </tr>
-            <tr>
+            <tr class="active">
                 <td>1</td>
                 <td>Goa</td>
                 <td>2000</td>
             </tr>
-            <tr>
+            <tr class="success">
                 <td>2</td>
                 <td>Karwar</td>
                 <td>2010</td>
             </tr>
-            <tr>
+            <tr class="danger">
                 <td>3</td>
                 <td>Uttarakhand</td>
                 <td>2012</td>
             </tr>
-            <tr>
+            <tr class="warning">
                 <td>4</td>
                 <td>Goa</td>
                 <td>2015</td>
             </tr>
+
         </table>
+        <button class="warning btn btn-success" style="margin-bottom:35px" onclick="showalert();">hello</button>
+        
     </div>
+    <div class="row container-fluid">
+        <div class="col-sm-3">
+            <img src="birds1.jpg" class="img-circle" />
+        </div>
+        <div class="col-sm-3">
+            <img src="birds2.jpg" class="img-responsive" />
+        </div>
+        <div class="col-sm-3">
+            <img src="birds3.jpg" class="img-rounded" />
+        </div>
+        <div class="col-sm-3">
+            <img src="bird150.jpg" class="img-thumbnail" />
+        </div>
+    </div>
+  
+    <script>
+        function showalert() {
+            alert("Hello! How can you hit me like that?");
+        }
+    </script>
 </body>
 </html>
